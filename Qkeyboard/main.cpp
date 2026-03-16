@@ -33,6 +33,7 @@
 
 int main(int argc, char *argv[])
 {
+    //测试一下提交
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
     QGuiApplication app(argc, argv);
